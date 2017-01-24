@@ -1,0 +1,18 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+.centeredText{
+    text-align: center;
+}
+.rightText{
+    text-align: right;
+}
+h1,h3{
+    font-weight: 100;
+}
+.questionDesc{
+    font-family: 'Courier New', 'Courier', monospace;
+}
+.withMargin{
+    margin-top: 20px;
+}

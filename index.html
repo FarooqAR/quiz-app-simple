@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Farooq AR">
+    <title>Quiz App</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="centeredText">Quiz App</h1><hr>
+        <div class="centeredText" id="startScreen">
+            <button id="start">Start</button>
+        </div>
+        <div id="quizScreen">
+            <h2 class="rightText"><span id="time"></span></h2>
+            <h3 id="questionText" class="questionText"></h3>
+            <pre id="questionDesc" class="questionDesc"></pre>
+            <form id="choices" class="choices">
+
+            </form>
+        </div>
+        <div id="resultScreen">
+            <h3 class="centeredText">Your Result</h3>
+            <h3 class="centeredText" id="percentage"></h3>
+            <div class="centeredText">
+                <p>You got <strong><span id="correct"></span></strong> out of <strong><span id="total"></span></strong> questions correct!</p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
